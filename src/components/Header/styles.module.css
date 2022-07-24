@@ -1,0 +1,8 @@
+.header {
+  background: #202024;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  min-height: 100px;
+}
