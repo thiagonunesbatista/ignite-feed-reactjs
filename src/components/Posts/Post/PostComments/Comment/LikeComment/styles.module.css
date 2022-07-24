@@ -1,0 +1,12 @@
+.like-comment {
+  font-size: 0.875rem;
+  line-height: 1rem;
+  background: none;
+  color: var(--gray-400);
+  justify-self: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: none;
+}

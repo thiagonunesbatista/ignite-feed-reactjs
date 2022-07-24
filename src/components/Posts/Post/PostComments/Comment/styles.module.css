@@ -1,0 +1,15 @@
+.comment {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: auto 1fr;
+}
+
+.comment__text {
+  border-radius: 8px;
+  background-color: var(--gray-700);
+  padding: 1rem 1rem 1.5rem;
+}
+
+.comment__like {
+  grid-column: 2 / 3;
+}

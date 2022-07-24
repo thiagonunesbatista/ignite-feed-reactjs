@@ -1,0 +1,13 @@
+.post-author {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  position: relative;
+}
+
+.post-author__published-at {
+  color: var(--gray-400);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-left: auto;
+}

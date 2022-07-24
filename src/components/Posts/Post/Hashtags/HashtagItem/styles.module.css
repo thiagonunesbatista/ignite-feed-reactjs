@@ -1,0 +1,8 @@
+.hashtag-item {
+  color: var(--green-500);
+  transition: color 0.3s linear;
+}
+
+.hashtag-item:hover {
+  color: var(--green-300);
+}
