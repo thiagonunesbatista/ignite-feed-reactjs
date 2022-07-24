@@ -8,6 +8,7 @@
   --gray-800: #202024;
   --gray-900: #121214;
   --green-500: #00875f;
+  --green-300: #00b37e;
 }
 
 * {
@@ -29,4 +30,13 @@ button {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1rem;
+}
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 2px var(--green-500);
+}
+
+a {
+  text-decoration: none;
 }
