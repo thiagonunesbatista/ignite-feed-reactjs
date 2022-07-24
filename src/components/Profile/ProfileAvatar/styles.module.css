@@ -1,0 +1,7 @@
+.profile-avatar {
+  padding: 4px;
+  border: solid 2px var(--green-500);
+  border-radius: 8px;
+  background: var(--gray-800);
+  box-sizing: content-box;
+}

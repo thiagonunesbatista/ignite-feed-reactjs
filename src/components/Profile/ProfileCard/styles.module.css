@@ -1,0 +1,31 @@
+.profile-card {
+  width: 100%;
+  max-width: 16rem;
+  border-radius: 8px;
+  background: var(--gray-800);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+}
+
+.profile-card__cover {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.profile-card__avatar {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40px;
+}
+
+.profile-card__name {
+  margin-top: 44px;
+}
+
+.profile-card__title {
+  margin-bottom: 1.5rem;
+}
