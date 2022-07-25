@@ -21,6 +21,7 @@ export const ProfileCard = ({
       className={styles['profile-card__avatar']}
       profileAvatarUrl={profileAvatarUrl}
       profileName={name}
+      isHighlight
     />
 
     <AuthorName className={styles['profile-card__name']} name={name} />
