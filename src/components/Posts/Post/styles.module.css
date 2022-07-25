@@ -1,9 +1,15 @@
 .post {
   background: var(--gray-800);
-  padding: 2.5rem;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+@media (min-width: 576px) {
+  .post {
+    padding: 2.5rem;
+  }
 }
 
 .post__content {
