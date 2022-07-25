@@ -5,14 +5,25 @@ import styles from './styles.module.css'
 
 import { HashtagsContainer, HashtagItem } from './Hashtags'
 
-export const Post = ({ post: { author, content, publishedAt } }) => (
+import { PostComments } from './PostComments'
+
+export const Post = ({ post: { author, comments, content, publishedAt } }) => (
   <article className={styles.post}>
     <PostAuthor author={author} publishedAt={publishedAt} />
 
-    <p
-      className={styles.post__content}
-      dangerouslySetInnerHTML={{ __html: content.text }}
-    />
+    {content.text.map((currentText, index) => {
+      if (currentText.type === 'paragraph') {
+        return <p key={index}>{currentText.content}</p>
+      }
+
+      if (currentText.type === 'link') {
+        return (
+          <a key={index} href={currentText.url} target='_blank'>
+            {currentText.content}
+          </a>
+        )
+      }
+    })}
 
     {content?.hashtags.length > 0 && (
       <HashtagsContainer>
@@ -22,5 +33,7 @@ export const Post = ({ post: { author, content, publishedAt } }) => (
       </HashtagsContainer>
     )}
     <FeedbackForm />
+
+    <PostComments comments={comments} />
   </article>
 )

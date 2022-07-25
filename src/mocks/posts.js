@@ -40,16 +40,25 @@ export const posts = [
   {
     author: users[0],
     content: {
-      text: `
-      Fala galeraa 👋
-      
-      Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀
-      
-      👉 jane.design/doctorcare
-      `,
+      text: [
+        {
+          type: 'paragraph',
+          content: 'Fala galeraa 👋'
+        },
+        {
+          type: 'paragraph',
+          content:
+            'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'
+        },
+        {
+          type: 'link',
+          content: '👉 jane.design/doctorcare',
+          url: 'jane.design/doctorcare'
+        }
+      ],
       hashtags: postHashtags[0]
     },
     comments: [postComments[0]],
-    publishedAt: 'Publicado há 1h'
+    publishedAt: new Date('2022-07-25 07:00:00')
   }
 ]
