@@ -4,12 +4,39 @@
   grid-template-columns: auto 1fr;
 }
 
-.comment__text {
-  border-radius: 8px;
+.comment__content {
+  position: relative;
   background-color: var(--gray-700);
+  border-radius: 8px;
   padding: 1rem 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.comment__header {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.comment__delete {
+  margin-left: auto;
+  align-self: flex-start;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.comment__text {
+  line-height: 1.25rem;
 }
 
 .comment__like {
   grid-column: 2 / 3;
+}
+
+.comment__published-at {
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  color: var(--gray-400);
 }
