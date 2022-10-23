@@ -1,16 +1,24 @@
-# ignite-feed-reactjs
+# 🎯 Ignite Feed
+
+<img src="https://raw.githubusercontent.com/thiagonunesbatista/ignite-feed-reactjs/main/github-assets/ignite-cover.png" />
 
 It's a static application with single comments, where the foundaments of ReactJS (Props, components) were used.
 
 Project developed during the ReactJS course "Ignite" from [RocketSeat](https://www.rocketseat.com.br/).
 
-## Links
+## 🌐 Links
 
 [Figma](https://www.figma.com/community/file/1113573231685349036)
 
-[My profile on RocketSeat platform](https://app.rocketseat.com.br/me/thiagonunesbatista)
+[My profile at RocketSeat platform](https://app.rocketseat.com.br/me/thiagonunesbatista)
 
-## How to run the project
+## 💻 Ignite Feed Desktop
+<img src="https://raw.githubusercontent.com/thiagonunesbatista/ignite-feed-reactjs/main/github-assets/ignite-feed-desktop.png" width="1076" />
+
+## 📱 Ignite Feed Mobile
+<img src="https://raw.githubusercontent.com/thiagonunesbatista/ignite-feed-reactjs/main/github-assets/ignite-feed-mobile.png" width="360" />
+
+## ⚙️ How to run the project
 
 Take the next steps to start the project on your machine.
 
