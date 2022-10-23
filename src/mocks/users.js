@@ -8,7 +8,7 @@ export const users = [
   {
     name: 'John Doe',
     professionalTitle: 'Dev Back-end',
-    profileAvatar: 'https://avatars.githubusercontent.com/u/67487679?v=4',
+    profileAvatar: 'https://avatars.githubusercontent.com/u/2254731?v=4',
     profileCover: 'https://dummyimage.com/256x72/fff/000'
   },
   {

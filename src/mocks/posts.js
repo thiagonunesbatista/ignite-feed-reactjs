@@ -30,7 +30,7 @@ const postHashtags = [
 const postComments = [
   {
     content: {
-      text: 'Muito bom Devon, parabéns!! 👏👏'
+      text: 'Muito bom Thiago, parabéns!! 👏👏'
     },
     author: users[1]
   }
@@ -48,12 +48,12 @@ export const posts = [
         {
           type: 'paragraph',
           content:
-            'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'
+            'Acabei de subir mais um projeto no meu portfólio. É um projeto que fiz no curso Ignite da RocketSeat.'
         },
         {
           type: 'link',
-          content: '👉 jane.design/doctorcare',
-          url: 'jane.design/doctorcare'
+          content: '👉 Ignite Feed',
+          url: 'https://github.com/thiagonunesbatista/ignite-feed-reactjs'
         }
       ],
       hashtags: postHashtags[0]
